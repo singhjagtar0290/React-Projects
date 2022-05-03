@@ -8,6 +8,7 @@ const DUMMY_EXPENSES = [
   {id:"e2",title:"Mobile Insurance",amount:94.12,date:new Date(2019,11,12)},
   {id:"e3",title:"Truck Insurance",amount:94.12,date:new Date(2020,10,14)},
   {id:"e4",title:"Home Insurance",amount:94.12,date:new Date(2020,7,15)},
+  {id:"e5",title:"Home Insurance",amount:94.12,date:new Date(2022,7,15)},
 ]
 
 const [expenses,setExpenses] = useState(DUMMY_EXPENSES)
